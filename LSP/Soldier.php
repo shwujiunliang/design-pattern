@@ -11,7 +11,7 @@ class Soldier
 {
     private $gun;
 
-    public function setGun($gun)
+    public function setGun(AbstractGun $gun)
     {
         $this->gun = $gun;
     }
