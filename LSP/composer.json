@@ -1,0 +1,10 @@
+{
+    "name": "ksd/lsp",
+    "authors": [
+        {
+            "name": "annie",
+            "email": "annie.liang@touchcity.tw"
+        }
+    ],
+    "require": {}
+}
