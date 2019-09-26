@@ -14,5 +14,9 @@ $sanMao->setGun(new Rifle());
 $sanMao->killEnemy();
 
 
+$b = new Shipper();
+$b->setGun(new Aug());
+$b->killEnemy();
+
 
 

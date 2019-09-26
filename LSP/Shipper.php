@@ -9,9 +9,14 @@ namespace LSP;
 
 class Shipper extends Soldier
 {
-    public function killEnemy(AUG $aug)
+    public function setGun(Relif $gun)
     {
-        $aug->zoomOut();
+        $this->gun = $gun;
+    }
+
+    public function killEnemy()
+    {
+        $this->gun->zoomOut();
         $this->gun->shoot();
     }
 
